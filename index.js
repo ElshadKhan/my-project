@@ -7,3 +7,5 @@ app.use(express.json());
 app.use('/', todoRouter);
 
 app.listen(PORT, () => console.log(`Server started on post ${PORT}`));
+
+console.log('Hello')
